@@ -1,0 +1,18 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        applicationId "com.mstar.modernlauncher"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 2
+        versionName "1.1"
+    }
+
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
